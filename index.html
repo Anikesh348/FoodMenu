@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Taste Factory</title>
+
+  <meta name="description" content="This is the description">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >	
+  <link rel="stylesheet" href="http://static.sasongsmat.nu/fonts/vegetarian.css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+  <script src="store.js" async></script>
+</head>
+
+<body>
+
+  <section class="navigationbar">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#">
+        <div class="brand-image">
+          <img class="image1" src="Images/index.jpg" alt="brand-image">
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="search">
+
+          <form class="form-inline md-form mb-0">
+
+            <input class="form-control font-bold w-75 ml-3" type="text" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn n btn-light"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span style="color:grey;">Create account.</span> <span style="color:blue;">It's
+                free!</span></a>
+            <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </section>
+
+
+
+  <section class="north-indian">
+    <h2 class="section-header">North Indian Cuisine</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/1.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Paneer Butter Masala</span>
+              <img class="dupli shop-item-image" src="Images/1.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹150</span>
+                <button class="s1 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/2.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Veg Pulav</span>
+              <img class="dupli shop-item-image" src="Images/2.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹250</span>
+                <button class="s2 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4 fixed">
+        <button class=" btn cart-btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalCenter" name="button"> <i class="add1 fas fa-cart-plus fa-5x "></i>
+        </button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/3.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Naan</span>
+              <img class="dupli shop-item-image" src="Images/3.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹480</span>
+                <button class="s3 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/4.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"> <span class="n vegetarianicon">⊡</span> Butter Chicken</span>
+              <img class="dupli shop-item-image" src="Images/4.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹480</span>
+                <button class="s4 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="southindian">
+    <h2 class="section-header">South Indian Cuisine</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/5.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Dosa</span>
+              <img class="dupli shop-item-image" src="Images/5.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹80</span>
+                <button class="s5 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/6.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Rasam Rice</span>
+              <img class="dupli shop-item-image" src="Images/6.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹100</span>
+                <button class="s6 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/7.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Idli</span>
+              <img class="dupli shop-item-image" src="Images/7.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹40</span>
+                <button class="s8 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img class="shop-item-image" src="Images/8.jpg">
+          <div class="card-body">
+            <div class="shop-item">
+              <span class="shop-item-title"><span class="vegetarianicon">⊡</span> Vadai</span>
+              <img class="dupli shop-item-image" src="Images/8.jpg">
+              <div class="shop-item-details">
+                <span class="shop-item-price">₹20</span>
+                <button class="s7 btn btn-primary shop-item-button" type="button">ADD</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-bodies">
+          <div class="card ">
+            <div class="card-body">
+              <section class="container content-section">
+
+                <div class="cart-row">
+                  <span class="cart-item cart-header cart-column">ITEM</span>
+                  <span class="cart-price cart-header cart-column">PRICE</span>
+                  <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                  <strong class="cart-total-title">Total</strong>
+                  <span class="cart-total-price">₹0</span>
+                </div>
+                
+              </section>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+
+            <button class="btn btn-primary btn-purchase" data-dismiss="modal" type="button">PURCHASE</button>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <section class="lower">
+    <div class=" lower-section">
+
+      <button class=" btn cart-btn btn-outline-warning" data-toggle="modal" data-target="#exampleModalCenter" name="button"> <i class="add1 fas fa-cart-plus fa-2x "></i>
+      </button>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>

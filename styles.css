@@ -1,0 +1,191 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  
+}
+.n{
+  color: red;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+.waste{
+  display: none;
+}
+.lower
+{
+  visibility: collapse;
+  
+}
+.nonveg
+{
+  width: 26px;
+  height: 26px;
+}
+.lower .lower-section
+{
+  position: fixed;
+ bottom: 1px;
+ width: 100%;
+ text-align: center;
+ 
+ background-color:#FFF5EE;
+}
+.cart-btn{
+  margin: 1%;
+}
+
+
+.southindian
+{
+  margin-bottom: 50px;
+}
+.hide{
+  visibility:collapse;
+}
+/* .navigationbar{
+  background-color: #fff !important;
+} */
+a.notif {
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: url('http://i.imgur.com/evpC48G.png');
+  background-size: contain;
+  text-decoration: none;
+}
+.num {
+  position: absolute;
+  right: 11px;
+  top: 6px;
+  color: #fff;
+}
+.image1
+{
+  height: 100px;
+  width: 200px;
+}
+.north-indian{
+  padding: 1% 10%;
+}
+.southindian{
+  padding: 1% 10%;
+}
+.dupli
+{
+  display: none;
+}
+.shop-item-button{
+  float: right;
+}
+.shop-item-title{
+  margin: auto;
+}
+.shop-item-price{
+  float: left;
+}
+.card{
+  margin-bottom: 4%;
+}
+.north-indian .fixed
+{
+  position: fixed;
+  width: 25%;
+  left: 85%;
+  top: 80%;
+  
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+@media only screen and (max-width: 995px) {
+  .north-indian .fixed{
+    display: none;
+  }
+  .lower{
+    visibility: visible;
+  }
+  
+}
