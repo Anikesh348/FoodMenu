@@ -5,7 +5,7 @@ body
   
 }
 .n{
-  color: red;
+  color: red !important;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
@@ -18,11 +18,10 @@ h2{
   visibility: collapse;
   
 }
-.nonveg
-{
-  width: 26px;
-  height: 26px;
+.vegetarianicon{
+  color: green;
 }
+
 .lower .lower-section
 {
   position: fixed;
@@ -188,4 +187,8 @@ a.notif {
     visibility: visible;
   }
   
+}
+.space
+{
+  padding: 0.6% !important;
 }
